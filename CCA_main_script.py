@@ -1,3 +1,12 @@
+
+"""
+CCA analysis
+2019/2020
+Author:   
+        Jeremy Lefort-Besnard   jlefortbesnard (at) tuta (dot) io
+"""
+
+
 import numpy as np
 import pandas as pd
 import glob
