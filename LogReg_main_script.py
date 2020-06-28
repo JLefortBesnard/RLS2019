@@ -1,3 +1,11 @@
+
+"""
+Logistic Regression analysis
+2019
+Author:  
+	Danilo Bzdok: danilo (dot) bzdok (at) mcgill (dot) ca
+"""
+
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
