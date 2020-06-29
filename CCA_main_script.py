@@ -29,7 +29,7 @@ from sklearn.preprocessing import LabelBinarizer
 
 # extract path to sMRI data
 sMRI_paths = glob.glob(
-  '/media/swifter/JEREMY_PHD/CHECHKO_RESTING_STATE/CHECHKO_RESTING_STATE/*/*/CAT/mri/mwp1*.nii')
+  'CHECHKO_RESTING_STATE/*/*/CAT/mri/mwp1*.nii')
 sMRI_subnames = np.array(
   [p.split('mwp1')[-1].split('.nii')[0] for p in sMRI_paths])
 df_right = pd.DataFrame(
